@@ -47,8 +47,10 @@ function giaiptbac2(){
     if(a == 0){
         ng = -c / b;
         document.getElementById('kq_pt2').innerHTML = "Phương trình có một nghiệm là : "+ng;
-    }else if (b == 0){
-        return (c == 0) ? 'Phương trình có vô số nghiệm' : 'Phuong trình vô nghiệm'
+    }else if (b == 0 && c == 0){
+        document.getElementById('kq_pt2').innerHTML = "Phương trình có vô số nghiệm "
+    }else {
+        document.getElementById('kq_pt2').innerHTML = "Phương trình vô nghiệm "
     }
     delta = b*b - 4*a*c;
     if(delta > 0){
