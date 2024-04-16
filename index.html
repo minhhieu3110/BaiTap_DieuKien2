@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Điều Kiên 2</title>
+    <script src="condition.js"></script>
+</head>
+<body>
+    <h3>Bài Tập 1: Chuyển từ độ C sang độ F</h3><br>
+    <input type="number" placeholder="Nhập độ C" id="c">
+    <button onclick="chuyendoi()">Chuyển Đổi</button>
+    <br>
+    <p id="convert"></p>
+    <hr>
+    <h3>Bài Tập 2: Chuyển từ mét sang feet</h3><br>
+    <input type="number" placeholder="Nhập mét" id="m">
+    <button onclick="convert_ft()">Chuyển Đổi</button>
+    <br>
+    <p id="ft"></p>
+    <h3>Bài Tâp 3: Tính diện tích hình vuông khi biết cạnh a</h3><br>
+    <input type="number" placeholder="Nhập cạnh a" id="a">
+    <button onclick="dt_vuong()">Diện tích</button>
+    <br>
+    <p id="kq"></p>
+    <hr>
+    <h3>Bài Tâp 4: Tính diện tích hình chữ nhật khi biết cạnh a,b</h3><br>
+    <input type="number" placeholder="Nhập cạnh a" id="cn_a">
+    <input type="number" placeholder="Nhập cạnh b" id="cn_b">
+    <button onclick="dt_cn()">Diện tích</button>
+    <br>
+    <p id="dt_cn"></p>
+    <hr>
+    <h3>Bài Tâp 5: Tính diện tích hình tam giác vuông khi biết 2 cạnh kề a,b</h3><br>
+    <input type="number" placeholder="Nhập cạnh kề a" id="tg_a">
+    <input type="number" placeholder="Nhập cạnh kề b" id="tg_b">
+    <button onclick="dt_tgv()">Diện tích</button>
+    <br>
+    <p id="dt_tgv"></p>
+    <hr>
+    <h3>Bài Tập 6: Giải phương trình bậc 1</h3><br>
+    <input type="number" placeholder="Nhâp a" id="gt_a">
+    <input type="number" placeholder="Nhâp b" id="gt_b">
+    <button onclick="giaiptbac1()">Giải</button>
+    <p id="kq_pt1"></p>
+    <hr>
+    <h3>Bài Tập 7: Giải phương trình bậc 2</h3><br>
+    <input type="number" placeholder="Nhâp a" id="gt2_a">
+    <input type="number" placeholder="Nhâp b" id="gt2_b">
+    <input type="number" placeholder="Nhâp c" id="gt2_c">
+    <button onclick="giaiptbac2()">Giải</button>
+    <p id="kq_pt2"></p>
+    <hr>
+    <h3>Bài Tập 8: Kiểm tra xem một số nhập vào có phải là tuổi của một người hay không. Một số nguyên là tuổi của 1 người khi số đó nhỏ hơn 120 và lớn hơn 0</h3>
+    <br>
+    <input type="number" placeholder="Nhập tuổi" id="age">
+    <button onclick="kt_age()">Kiểm tra</button>
+    <p id="age_nguoi"></p>
+    <hr>
+    <h3>Bài Tập 9: Kiểm tra xem 3 số thực (a, b, c) nhập vào có phải là cạnh của 1 tam giác.</h3><br>
+    <input type="number" placeholder="Nhập số a" id="soa">
+    <input type="number" placeholder="Nhập số b" id="sob">
+    <input type="number" placeholder="Nhập số c" id="soc">
+    <button onclick="kt_tg()">Kiểm tra</button>
+    <br>
+    <p id="tg"></p>
+</body>
+</html>
